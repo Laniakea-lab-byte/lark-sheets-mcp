@@ -1,0 +1,17 @@
+{
+  "name": "lark-sheets-mcp",
+  "version": "1.0.0",
+  "description": "MCP server that lets AI agents (Claude, Codex, etc.) read and write Lark / Feishu Sheets",
+  "type": "module",
+  "bin": { "lark-sheets-mcp": "src/server.mjs" },
+  "main": "src/server.mjs",
+  "scripts": { "start": "node src/server.mjs" },
+  "engines": { "node": ">=18" },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.20.0",
+    "zod": "^3.25.0"
+  },
+  "keywords": ["mcp", "lark", "feishu", "larksuite", "sheets", "claude", "codex", "ai-agent"],
+  "author": "Fathul Mubarok",
+  "license": "MIT"
+}
